@@ -1,0 +1,57 @@
+##############################
+#         CLIENTES           #
+##############################
+
+### Visualizar clientes registrados
+GET http://localhost:3003/clientes
+
+### Inserir Cliente
+POST http://localhost:3003/clientes
+Content-Type: application/json
+
+{
+    "cpf": ,
+    "nome_cliente": ""
+}
+
+### Atualizar/Alterar Cliente
+PUT http://localhost:3003/clientes/nxZi2iwcSuhlAup5QsQ8
+Content-Type: application/json
+
+{
+    "cpf": 12345678910 ,
+    "nome_cliente": "Teste"
+}
+
+### Excluir/apagar Cliente
+DELETE http://localhost:3003/clientes/gMNDgKlXhYbJukKGbyho
+
+
+
+##############################
+#         PRODUTOS           #
+##############################
+
+### Visualizar Produtos registrados
+GET http://localhost:3003/produtos
+
+### Inserir Produto
+POST http://localhost:3003/produtos
+Content-Type: application/json
+
+{
+    "nome_produto": "goiabada",
+    "preco": 15.99 
+}
+
+### Atualizar/alterar Produto
+PUT http://localhost:3003/produtos/Qqnzu1qESfjnr2Hd0icy
+Content-Type: application/json
+
+{
+    "nome_produto": "caneta",
+    "preco": 5.00 
+}
+
+### Excluir/apagar Produto
+DELETE http://localhost:3003/produtos/Qqnzu1qESfjnr2Hd0icy
