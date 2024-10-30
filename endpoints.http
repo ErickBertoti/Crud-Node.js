@@ -10,16 +10,16 @@ POST http://localhost:3003/clientes
 Content-Type: application/json
 
 {
-    "cpf":  ,
+    "cpf": ,
     "nome_cliente": ""
 }
 
 ### Atualizar/Alterar Cliente
-PUT http://localhost:3003/clientes/7GreiHmz6RqbLzWTzGQS
+PUT http://localhost:3003/clientes/
 Content-Type: application/json
 
 {
-    "cpf":  ,
+    "cpf": ,
     "nome_cliente": ""
 }
 
