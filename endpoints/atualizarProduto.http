@@ -1,0 +1,8 @@
+PUT http://localhost:3003/produtos/Qqnzu1qESfjnr2Hd0icy
+Content-Type: application/json
+
+{
+    "nome_produto": "caneta",
+    "preco": 5.00 
+}
+

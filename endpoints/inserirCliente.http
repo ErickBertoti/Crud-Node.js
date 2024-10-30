@@ -1,0 +1,7 @@
+POST http://localhost:3003/clientes
+Content-Type: application/json
+
+{
+    "cpf": 1218290183,
+    "nome_cliente": "Deus e Jesus são meus ídolos"
+}
